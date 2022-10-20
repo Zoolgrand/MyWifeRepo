@@ -1,8 +1,9 @@
 .header {
-    display: flex;
-    width: 1460px;
-    height: 100px;
-    background-color: darkolivegreen;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  width: 100vw;
+  height: 150px;
+  background-color: darkolivegreen;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
 }
