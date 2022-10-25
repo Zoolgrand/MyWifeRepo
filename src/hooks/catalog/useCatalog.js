@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 export const useCatalog = () => {
   const [holsts, setHolsts] = useState([]);
   const [penscils, setPencils] = useState([]);
+  const [activeCatagory, setActiveCatagory] = useState("holsts")
 
   const getHolsts = async () => {
     const responce = await fetch(
@@ -25,5 +26,5 @@ export const useCatalog = () => {
     getPensils();
   }, []);
 
-  return { holsts, penscils };
+  return { holsts, penscils,activeCatagory, setActiveCatagory };
 };

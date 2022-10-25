@@ -4,13 +4,13 @@ import CatalogMenu from "../catalogMenu/CatalogMenu";
 import "./Catalog.css";
 
 const Catalog = () => {
-  const { holsts, penscils } = useCatalog();
+  const { holsts, penscils, activeCatagory, setActiveCatagory } = useCatalog();
 
-  console.log(holsts, penscils);
+  console.log(activeCatagory)
 
   return (
     <div>
-      <CatalogMenu />
+      <CatalogMenu activeCatagory={activeCatagory} setActiveCatagory={setActiveCatagory} />
     </div>
   );
 };

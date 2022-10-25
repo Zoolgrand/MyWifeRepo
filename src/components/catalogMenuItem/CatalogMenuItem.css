@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.active {
+  width: 150px;
+  height: 50px;
+  background-color: #89e2777e;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0px 10px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.slip {
+  width: 50px;
+  height: 50px;
+  background-color: #b0b67e;
+}
+
+.slip img {
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+}
