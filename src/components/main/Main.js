@@ -1,5 +1,6 @@
 import React from "react";
 import Catalog from "../catalog/Catalog";
+import GalaryItem from "../galaryItem/GalaryItem";
 import HomePage from "../homePage/HomePage";
 import "./Main.css";
 
@@ -8,7 +9,8 @@ const Main = () => {
     <div className="solid">
       {/* <HomePage /> */}
       <Catalog />
-      <div>FAVORYT</div>
+      <GalaryItem />
+      {/* <div>FAVORYT</div> */}
     </div>
   );
 };
