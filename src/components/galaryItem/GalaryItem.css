@@ -6,35 +6,64 @@
   background-color: rgba(101, 145, 20, 0.301);
   border-radius: 15px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 15px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .galary-item_main {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 .galary-item_name {
   display: flex;
   justify-content: center;
   font-size: large;
+  margin: 12px;
 }
 
 .galary-item_image {
   height: 150px;
-  width: 100px;
+  width: 110px;
   background-color: rgba(139, 160, 48, 0.664);
 }
 
 .galary-item_text {
-  height: 180px;
+  height: 200px;
   width: 150px;
   background-color: rgba(139, 160, 48, 0.664);
   margin: 0;
 }
 
+.price-wrap {
+  width: 100%;
+}
+
 .galary-item_price {
   display: flex;
   justify-content: flex-end;
+  margin: 10px;
+}
+
+.galary-item button {
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ebf3c9;
+  color: #000000;
+}
+.galary-item_btn {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.galary-item button:hover {
+  background-color: #e1f09d;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.25);
 }

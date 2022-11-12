@@ -22,6 +22,7 @@ const CatalogMenu = (props) => {
     <div className="menu-element">
       {catalogMenuItems.map((item) => (
         <CatalogMenuItem
+          key={item.id}
           id={item.id}
           text={item.text}
           img={item.img}

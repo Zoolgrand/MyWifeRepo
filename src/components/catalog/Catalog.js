@@ -8,15 +8,17 @@ import "./Catalog.css";
 const Catalog = () => {
   const { holsts, penscils, activeCatagory, setActiveCatagory } = useCatalog();
 
-  console.log(activeCatagory);
-
   return (
     <div className="catalog">
       <CatalogMenu
         activeCatagory={activeCatagory}
         setActiveCatagory={setActiveCatagory}
       />
-      <Galary holsts={holsts} penscils={penscils} />
+      <Galary
+        holsts={holsts}
+        penscils={penscils}
+        activeCatagory={activeCatagory}
+      />
     </div>
   );
 };

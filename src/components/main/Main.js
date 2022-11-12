@@ -5,7 +5,7 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div className="solid">
+    <div className="main">
       {/* <HomePage /> */}
       <Catalog />
       {/* <div>FAVORYT</div> */}
